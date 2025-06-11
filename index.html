@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اسلام الزبيري | السيرة الذاتية</title>
+
+<!-- رابط لملف الأنماط CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- خطوط جوجل لتحسين مظهر النصوص العربية -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ======== الهيدر وشريط التنقل ======== -->
+<header class="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">اسلام الزبيري </a>
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active-link">الرئيسية</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">المهارات</a></li>
+            <li class="nav__item"><a href="#certifications" class="nav__link">الشهادات</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">المشاريع</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">التواصل</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- ======== القسم الرئيسي (نبذة عني) ======== -->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <h1>مرحباً، أنا <span class="highlight">اسلام الزبيري </span></h1>
+                <h3>مطور برمجيات | طالب طموح</h3>
+                <p>
+                    طالب شغوف بالتكنولوجيا وأسعى دائمًا لتطوير مهاراتي في مجال تطوير البرمجيات. أبحث عن فرص  تمكنني من تحقيق طموحاتي والمساهمة في بناء مستقبل تقني مبتكر.
+                </p>
+                <div class="home__buttons">
+                    <a href="cv.pdf" download class="button" target="_blank">
+                        تحميل السيرة الذاتية <i class="fas fa-download"></i>
+                    </a>
+                    <div class="home__social">
+                        <a href="https://github.com/eslam-alzubairy" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/eslam_al_zubairy" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== قسم المهارات ======== -->
+    <section class="skills section" id="skills">
+        <h2 class="section__title">المهارات التقنية</h2>
+        <div class="skills__container container grid">
+            <div class="skill__item">لغات البرمجة: JavaScript, Python, Java</div>
+            <div class="skill__item">تطوير الويب: HTML5, CSS3, Node.js</div>
+            <div class="skill__item">قواعد البيانات: SQL, MongoDB</div>
+            <div class="skill__item">أدوات: Git, Docker, VS Code</div>
+            <div class="skill__item">مفاهيم: هياكل البيانات، الخوارزميات، OOP</div>
+        </div>
+    </section>
+
+    <!-- ======== قسم الشهادات ======== -->
+    <section class="certifications section" id="certifications">
+        <h2 class="section__title">الشهادات والإنجازات</h2>
+        <div class="certifications__container container grid">
+            <div class="card">
+                <h3>شهادة في تطوير الويب الكامل</h3>
+                <p><strong>الجهة المانحة:</strong> منصة Coursera</p>
+                <p>تغطية شاملة لتقنيات الواجهة الأمامية والخلفية.</p>
+            </div>
+            <div class="card">
+                <h3> Python for Everybody</h3>
+                <p><strong>الجهة المانحة:</strong> University of Michigan</p>
+                <p>إتقان أساسيات لغة بايثون وتطبيقاتها.</p>
+            </div>
+                <div class="card">
+                <h3>Google IT Support </h3>
+                <p><strong>الجهة المانحة:</strong> Google</p>
+                <p>المشاركة ضمن فريق في حل تحديات الخوارزميات وهياكل البيانات.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== قسم المشاريع ======== -->
+    <section class="projects section" id="projects">
+        <h2 class="section__title">المشاريع التقنية</h2>
+        <div class="projects__container container grid">
+            <div class="card project__card">
+                <h3>نظام إدارة مهام</h3>
+                <p>تطبيق ويب لتنظيم المهام اليومية باستخدام JavaScript وLocalStorage لتخزين البيانات محليًا.</p>
+                <div class="project__tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="#" class="project__link">عرض المشروع →</a>
+            </div>
+            <div class="card project__card">
+                <h3>موقع تجارة إلكترونية بسيط</h3>
+                <p>واجهة أمامية لمتجر إلكتروني مع تصميم متجاوب وعربة تسوق تفاعلية.</p>
+                    <div class="project__tags">
+                    <span>HTML</span>
+                    <span>CSS Grid</span>
+                    <span>JS</span>
+                </div>
+                <a href="#" class="project__link">عرض المشروع →</a>
+            </div>
+            <div class="card project__card">
+                <h3>محلل بيانات الطقس</h3>
+                <p>برنامج بلغة Python يقوم بسحب بيانات الطقس من واجهة برمجة تطبيقات (API) وعرضها للمستخدم.</p>
+                    <div class="project__tags">
+                    <span>Python</span>
+                    <span>API</span>
+                    <span>JSON</span>
+                </div>
+                <a href="#" class="project__link">عرض المشروع →</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ======== قسم التواصل ======== -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">للتواصل</h2>
+        <div class="contact__container container">
+            <p>يسعدني تواصلكم ومناقشة أي فرص محتملة. يمكنكم التواصل معي عبر:</p>
+            <div class="contact__info">
+                <p><strong>البريد الإلكتروني:</strong> <a href="mailto:your.email@example.com" target="_blank">eslam7z.y@gmail.com</a></p>
+                <p><strong>صفحاتي الاجتماعية:</strong> 
+                    <a href="https://github.com/eslam-alzubairy" target="_blank">GitHub</a> | 
+                    <a href="https://www.linkedin.com/eslam_al_zubairy" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- ======== الفوتر ======== -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2024, اسلام الزبيري . جميع الحقوق محفوظة.</p>
+    </div>
+</footer>
+
+<!-- رابط لملف جافاسكريبت -->
+<script src="script.js"></script>
+</body>
+</html>
