@@ -42,3 +42,13 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(section);
     });
 });
+    // === نسخ الإيميل عند الضغط ===
+    const emailElement = document.getElementById('copyEmail');
+
+    if (emailElement) {
+        emailElement.addEventListener('click', function () {
+            const email = this.textContent;
+            navigator.clipboard.writeText(email)
+                
+        });
+    }
