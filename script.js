@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }, {
-        threshold: 0.1 // تظهر عندما يكون 10% من القسم مرئيًا
+        threshold: 0.1 
     });
 
     // مراقبة كل الأقسام
